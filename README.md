@@ -64,7 +64,7 @@ Filename: `Mohebian2017 A Comparative Study of the Neural Network, Fuzzy Logic, 
 
 
 
-### naeini2018 Seismic - learning from machines
+### Naeini2018 Seismic - learning from machines
 
 Filename: `naeini2018 Seismic - learning from machines.pdf`
 
@@ -82,19 +82,19 @@ Filename: `SLC Paris 2014_Seismic Standards in the SLC_SEG.pdf`
 
 
 
-### wu2018Cnnf Convolutional neural networks for fault interpretation in seismic images.pdf
+### Wu2018Cnnf Convolutional neural networks for fault interpretation in seismic images.pdf
 
 Filename: `wu2018Cnnf Convolutional neural networks for fault interpretation in seismic images.pdf`
 
 
 
-### wu2019 FaultNet3D: Predicting Fault Probabilities, Strikes, and Dips With a Single Convolutional Neural Network
+### Wu2019 FaultNet3D: Predicting Fault Probabilities, Strikes, and Dips With a Single Convolutional Neural Network
 
 Filename: `wu2019 FaultNet3D— Predicting Fault Probabilities, Strikes, and Dips With a Single Convolutional Neural Network [resized].pdf`
 
 
 
-### xiong2018 Seismic fault detection with convolutional neural networks.pdf
+### Xiong2018 Seismic fault detection with convolutional neural networks.pdf
 
 Filename: `xiong2018 Seismic fault detection with convolutional neural networks.pdf`
 
