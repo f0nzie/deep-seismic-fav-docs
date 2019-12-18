@@ -10,11 +10,19 @@
 
 Filename: `Di2018 Developing a seismic pattern interpretation network (SpiNet) for automated seismic interpretation  1810.08517.pdf`
 
+![image-20191218174022675](assets/image-20191218174022675.png)
+
+
+
 ----
 
 ### *Egorov2019 Automatic Fault interpretation from seismic data via convolutional neural networks*
 
 Filename: `Egorov2019 Automatic Fault interpretation from seismic data via convolutional neural networks [poster].pdf`
+
+<img src="assets/image-20191218174127480.png" alt="image-20191218174127480" style="zoom: 80%;" /><img src="assets/image-20191218174249170.png" alt="image-20191218174249170" style="zoom:80%;" /> 
+
+
 
 -----
 
@@ -22,7 +30,7 @@ Filename: `Egorov2019 Automatic Fault interpretation from seismic data via convo
 
 Filename: `ely2013 5D and 4D Pre-stack seismic data completion using tensor nuclear norm (TNN).pdf`
 
-
+<img src="assets/image-20191218174446784.png" alt="image-20191218174446784" style="zoom:80%;" />	<img src="assets/image-20191218174508626.png" alt="image-20191218174508626" style="zoom:80%;" />
 
 ----
 
