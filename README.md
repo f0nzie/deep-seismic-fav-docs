@@ -179,6 +179,24 @@ Machine learning has been around for decades or, depending on your view, centuri
 
 -----
 
+### Picetti2019 Seismic image processing through the generative adversarial network
+
+Filename: `Picetti2019 Seismic image processing through the generative adversarial network.pdf`
+
+<div align="center">
+<b>ABSTRACT</b>
+</div>
+
+The advent of new deep-learning and machine-learning paradigms enables the development of new solutions to tackle the challenges posed by new geophysical imaging applications. For this reason, convolutional neural networks (CNNs) have been deeply investigated as novel tools for seismic image processing. In particular, we have studied a specific CNN architecture, the generative adversarial network (GAN), through which we process seismic migrated images to obtain different kinds of output depending on the application target defined during training. We have developed two proof-of-concept applications. In the first application, a GAN is trained to turn a low-quality migrated image into a high-quality one, as if the acquisition geometry was much more dense than in the input. In the second example, the GAN is trained to turn a migrated image into the respective deconvolved reflectivity image. The effectiveness of the investigated approach is validated by means of tests performed on synthetic examples.
+
+State-of-the-art seismic imaging algorithms (e.g., full- waveform inversion and least-squares reverse time mi- gration [LS-RTM]) solve large-scale ill-posed inverse problems. Therefore, the study of iterative inversion methods, convex optimization and regularization strat- egies, and the formulation of appropriate cost functions played a key role in seismic imaging, as well as for similar problems (e.g., medical imaging.
+
+... the recent amazing development of machine learning, and in particular of deep learning and convolutional neural networks (CNNs), suggests new thinking and a huge potential for imaging-related fields (Lucas et al., 2018). 
+
+As a matter of fact, CNNs greatly impacted the whole signal and image processing community, and most image processing problems are, de facto, inverse problems (e.g., inpainting and deblurring). In particular, among the different architectures, generative adversarial networks (GANs) emerged as a promising approach to impose some form of regularization that is not easy to express through simple modeling (Goodfellow et al., 2014). 
+
+----
+
 ### Segy-change— The swiss army knife for the SEG-Y files
 
 Filename: `Segy-change— The swiss army knife for the SEG-Y files.pdf`
@@ -209,6 +227,25 @@ Filename: `SLC Paris 2014_Seismic Standards in the SLC_SEG.pdf`
 - 1975 Publication of the Technical Standards Book for SEGA, SEGB, SEGC and SEGD
 
 -----
+
+### Tingdahl2005 Semi-automatic detection of faults in 3D seismic data
+
+Filename: `Tingdahl2005 Semi-automatic detection of faults in 3D seismic data.pdf`
+
+<div align="center">
+<b>ABSTRACT</b>
+</div>
+
+The semi-automated detection of objects has been quite successful in detecting various types of seismic object, such as chimneys. The same technique can be applied success- fully to detect faults in 3D seismic data. We show that several different attributes – among others, similarity, frequency and curvature, all of which potentially enhance the visibility of faults – can be combined successfully by an artificial neural network. This results in a fault ‘probability’ cube in which faults are more continuous and noise is suppressed compared with single-attribute cubes. It is believed that the fault-cube can be improved further by applying image-processing techniques to enhance the fault prediction.
+
+
+Coherence cubes (Bahorich and Farmer 1995; Marfurt et al. 1998) are often used to highlight reflector edges and to guide the picking process. Enhanced attribute cubes can be even more helpful and are used to automate parts of the manual workflow.
+
+Most attributes are non-unique; one attribute can respond to other objects as well as just faults. There is no perfect fault attribute, but many attributes can contribute to fault inter- pretation. 
+
+The semi-automatic approach to seismic object detection, developed by Meldahl et al. (1999), uses directive attributes (i.e. attributes that are extracted in user- or data-steered di- rections) and neural networks to highlight objects of interest. The method was initially applied to highlight seismic chim- neys for the interpretation of hydrocarbon migration paths (Heggland et al. 1999; Tingdahl, Bril and de Groot 2001). The same methodology can be used to detect other seismic objects, such as faults, reflectors and bright spots. This paper focuses on adapting the methodology to detect faults in 3D seismic data.
+
+----
 
 ### Wu2018Cnnf Convolutional neural networks for fault interpretation in seismic images.pdf
 
