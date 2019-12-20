@@ -124,8 +124,6 @@ In the last study, the classifications of the litho-fluid facies were extended t
 
 The efficiency of machine learning techniques in increasing the prediction accuracy and decreasing the procedure time, and their objective approach toward the data, make it highly desirable to incorporate them in seismic data analyses. Along with the emphasis on the application of machine learning techniques in the study of subsurface properties, this dissertation presents frameworks for utilizing these techniques as new tools for the interpreter, not as a replacement. The knowledge of the data analyst about the field, and the selection and preparation of the attributes and application of the appropriate algorithm are all crucial factors in this procedure.
 
-
-
 -----
 
 ### Milletari2016 Fully Convolutional Neural Networks for  Volumetric Medical Image Segmentation
