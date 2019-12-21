@@ -76,7 +76,7 @@ Filename: `gasperini2009 SEISPRHO— An interactive computer program for process
 
 **SeisPrho** is an interactive computer program for processing and interpreting high-resolution seismic reflection profiles developed using the Delphi/Kylix multiplatform programming environment. For this reason, it is available under WindowsTM and LinuxTM operating systems. The program allows the users to handle SEG-Y data files (and other non-standard formats) carrying out a processing sequence over the data to obtain, as a final result, bitmap images of seismic sections. Some basic algorithms are implemented, including filtering and deconvolution. However, the main feature of SEISPRHO is its interactive graphic interface, which provides the user with several tools for interpreting the data, such as reflector picking and map digitizing. Moreover, the program allows importing and geo-referencing maps and seismic profiles in the form of digital images. Trace-by-trace analysis of seismic signal and sea-bottom reflectivity is also implemented, as well as other special functions such as compilation of time-slice maps from close-spaced grids of seismic lines. SEISPRHO is distributed as public domain software for non-commercial purposes by the Marine Geology division of the Istituto di Scienze Marine (ISMAR-CNR). This paper is an introduction to the program and a preliminary guide to the users.
 
-
+![image-20191220220610187](README.assets/image-20191220220610187.png)
 
 ----
 
@@ -94,6 +94,8 @@ In particular, convolutional neural networks (CNNs) have proven to be powerful t
 
 In medical imaging, the accurate diagnosis and/or assessment of a disease depends on both image acquisition and image in- terpretation. Image acquisition has improved substantially over recent years, with devices acquiring data at faster rates and in- creased resolution. The image interpretation process, however, has only recently begun to benefit from computer technology. Most interpretations of medical images are performed by physi- cians; however, image interpretation by humans is limited due to its subjectivity, large variations across interpreters, and fatigue. Many diagnostic tasks require an initial search process to detect abnormalities, and to quantify measurements and changes over time. Computerized tools, specifically image analysis and machine learning, are the key enablers to improve diagnosis, by facilitating identification of the findings that require treat- ment and to support the expert’s workflow. Among these tools, deep learning is rapidly proving to be the state-of-the-art foun- dation, leading to improved accuracy. It has also opened up new frontiers in data analysis with rates of progress not before experienced.
 
+
+
 ----
 
 ### Imhof2003 Seismic Determination of reservoir Heterogeneity-- Characterization of Heavey Oil Reservoirs
@@ -109,6 +111,8 @@ The objective of the project is to examine how seismic data can be used to param
 Reservoir characterization is an essential step in delineation, development, and production of hydrocarbon reserves. Our test area, the giant Coalinga Field in California’s San Joaquin Valley, is a good example. Large-scale steamflood projects have been utilized for many years in order to enhance recovery of heavier oil. Steamfloods are costly to operate due to the necessary infrastructure and their energy consumption. Optimally, injected steam would spread evenly from the injection point and push the oil toward the producer wells. In reality, the steam patterns are very complex. Reservoir characterization provides an improved understanding of the reservoir and the movement of steam, which will help to increase the profitability by reducing steam injection which decreases the environmental impact of steam injection. Reservoir heterogeneity affects not only the steamflood, but also the production. The Coalinga reservoirs are strongly compartmentalized which is aggravated by the high oil viscosity. Reservoir characterization helps siting infill wells to produce bypassed oil to increase ultimate recovery.
 
 The objective of the project is to examine how seismic and geologic data can be used to describe small scale heterogeneity and parameterize the reservoir models. Although these heterogeneities cannot be resolved individually (deterministically) using seismic data, we attempt to estimate their statistics from seismic data. The Coalinga field contains more than 2000 wells which provide the unusual luxury that even small-scale heterogeneity can be characterized with well data. The site allows construction of reservoir models from either seismic data or wireline logs and outcrops. Since these data are independent, the models could be compared and validated against each other. No single heterogeneity model, however, can characterize the heterogeneity of Coalinga field. Instead, geologic and geophysical heterogeneity models need to be integrated early.
+
+![image-20191220220819618](README.assets/image-20191220220819618.png)
 
 -----
 
@@ -129,6 +133,8 @@ The second study was conducted with the aim of classifying different facies from
 In the last study, the classifications of the litho-fluid facies were extended to three dimensional models using two machine learning methods and were compared with a knowledge-driven approach. The results were examined through a probabilistic approach to reflect the uncertainty of the predicted classes. The probabilistic neural network and the bagged-tree algorithm successfully predicted the variations of litho-fluid facies, especially for hydrocarbon units. Both methods predicted gas sands in certain parts of the field, away from control points, with similar form and lateral dimension. By comparing the results in predicting oil sands and shale, we interpret the bagged-tree method to be more adherent to the known parameters set by the interpreter, such as the OWC and the target classes. Predictions from the probabilistic neural network, however, can deviate from the target facies even close to the wells on which it has been trained.
 
 The efficiency of machine learning techniques in increasing the prediction accuracy and decreasing the procedure time, and their objective approach toward the data, make it highly desirable to incorporate them in seismic data analyses. Along with the emphasis on the application of machine learning techniques in the study of subsurface properties, this dissertation presents frameworks for utilizing these techniques as new tools for the interpreter, not as a replacement. The knowledge of the data analyst about the field, and the selection and preparation of the attributes and application of the appropriate algorithm are all crucial factors in this procedure.
+
+![image-20191220221451537](README.assets/image-20191220221451537.png)
 
 -----
 
