@@ -16,11 +16,9 @@ Filename: `Di2018 Developing a seismic pattern interpretation network (SpiNet) f
 
 Seismic interpretation is now serving as a fundamental tool for depicting subsurface geology and assisting activities in various domains, such as environmental engineering and petroleum exploration. In the past decades, a number of computer-aided tools have been developed for accelerating the interpretation process and improving the interpretation accuracy. However, most of the existing interpretation techniques are designed for interpreting a certain seismic pattern (e.g., faults and salt domes) in a given seismic dataset at one time; correspondingly, the rest patterns would be ignored. Interpreting all the important seismic patterns becomes feasible with the aid of multiple classification techniques. When implementing them into the seismic domain, however, the major drawback is the low efficiency particularly for a large dataset, since the classification need to be repeated at every seismic sample. To resolve such limitation, this study first present a seismic pattern interpretation dataset (SpiDat), which tentatively categorizes 12 commonly- observed seismic patterns based on their signal intensity and lateral geometry, including these of important geologic implications such as faults, salt domes, gas chimneys, and depositional sequences. Then we propose a seismic pattern interpretation network (SpiNet) based on the state- of-the-art deconvolutional neural network, which is capable of automatically recognizing and annotating the 12 defined seismic patterns in real time. The impacts of the proposed SpiNet come in two folds. First, applying the SpiNet to a seismic cube allows interpreters to quickly identify the important seismic patterns as input to advanced interpretation and modeling. Second, the SpiNet paves the foundation for deriving more task-oriented seismic interpretation networks, such as fault detection. It is concluded that the proposed SpiNet holds great potentials for assisting the major seismic interpretation challenges and advancing it further towards cognitive seismic data analysis. Meanwhile, more work is expected for evolving the SpiNet by integrating transfer learning, defining more seismic patterns, feeding more seismic datasets and training labels, and optimizing the network architectures.
 
-![image-20191220204057371](README.assets/image-20191220204057371.png)
+![image-20191220204916102](README.assets/image-20191220204916102.png)
 
 
-
-![image-20191220204145518](README.assets/image-20191220204145518.png)
 
 ----
 
@@ -35,6 +33,8 @@ Filename: `Egorov2019 Automatic Fault interpretation from seismic data via convo
 These days the most part of oil and gas brownfields is almost fully depleted and on the final stage of their production life. It makes E&P companies look for assets with tight or shale unconventionai deposits with difficult geological conditions more often. In many cases they are affected by very complex tectonic processes which determine their economic perspectives. As an example, faults produced by tectonic movements could create permeable fractured zones without which target reservoir would not be able to produce fluids. On the other hand, homogeneous reservoir with excellent petrophysical properties could be destroyed by fault activity due to separation into number of discontinuous deposits which cannot be developed economically efficient at the present technological level and economic conditions. In such a situation, proper understanding of fault distribution across the field and its probabilistic estimation is crucial part of field assessment. 
 
 Seismic methods allows robust estimation of fault distribution due to their three-dimensional nature but current algorithms are highly affected by noise (figure below) and permits fast yet accurate interpretation of faults and estimation of their probability. There is a necessity for a tool which can help experts to make their work. Modem computer vision algorithms based on evolutional neural network can be used as such a tool.
+
+![image-20191220204520809](README.assets/image-20191220204520809.png)
 
 * Conventional methods significantiy affected by different noises and have problems with delineation of faults without high amplitudes
 
@@ -59,6 +59,8 @@ In this paper we present novel strategies for completion of 5D pre-stack seismic
 This paper will mainly discuss recovery of pre-stack seismic records from incomplete spatial measurements. Ideally, a seis- mic survey would have receiver and source geometries at all of the possible spatial indices, however this rarely occurs due to financial and physical constraints. Instead, only a fraction of the possible shot and receiver locations are recorded and the data is spatially under-sampled, confounding interpretation of the seismic data, see [Trad (2009)] and references therein.
 
 The pre-stack seismic data can be viewed as a 5D data or a fifth order *tensor* consisting of one time or frequency dimen- sion and four spatial dimensions describing the location of the detector and the receiver in a two dimensional plane. This data can then be described in terms of the original ($r_x$, $r_y$, $s_x$, $s_y$) coordinate frames or in terms of midpoint receivers and offsets ($x$, $y$, $h_x$, $h_y$). Alternatively, one can also view this data as a col- lection of 4D tensors across the temporal frequencies as con- sidered in [Trad (2009)] and [Kreimer and Sacchi (2011)].
+
+![image-20191220205357931](README.assets/image-20191220205357931.png)
 
 
 
