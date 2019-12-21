@@ -289,7 +289,3 @@ Machine learning (especially deep learning) technologies are powerful for mining
 
 In this paper, we introduce the CNN for detecting geologic faults from 3D seismic images for practical applications. A CNN model is trained to detect faults from raw seismic images sampled on 3D grids or voxels in a supervised learning approach. Real data from 7 annotated seismic cubes are used to generate the training dataset with one seismic cube used for validation. We first demonstrate the capabiility of the trained model for fault detection by applying it to a synthetic seismic image cube with artificial faults. For real data tests, the trained network is then applied to a different seismic cube that the network has never seen in the training process. The fault probabiliittyy derived from the CNN shows similar but better highlighting of seismic discontinuities than seismic coherence.
 
-<script type="text/javascript" async
-src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
-config=TeX-MML-AM_CHTML"
-</script>
