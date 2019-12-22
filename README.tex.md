@@ -5,7 +5,6 @@
 ## Summary
 
 
-
 ### *Di2018 Developing a seismic pattern interpretation network (SpiNet) for automated seismic interpretation*
 
 Filename: `Di2018 Developing a seismic pattern interpretation network (SpiNet) for automated seismic interpretation  1810.08517.pdf`
@@ -43,8 +42,8 @@ Seismic methods allows robust estimation of fault distribution due to their thre
 * Necessity for tool capable to provide cognitive human-like interpretation
 
 
-
 -----
+
 
 ### Ely2013 5D and 4D Pre-stack seismic data completion using tensor nuclear norm (TNN).pdf
 
@@ -63,8 +62,8 @@ The pre-stack seismic data can be viewed as a 5D data or a fifth order *tensor* 
 ![image-20191220205357931](README.assets/image-20191220205357931.png)
 
 
-
 ----
+
 
 ### Gasperini2009 SEISPRHO: An interactive computer program for processing and interpretation of high-resolution seismic reflection profiles
 
@@ -80,6 +79,7 @@ Filename: `gasperini2009 SEISPRHO— An interactive computer program for process
 
 ----
 
+
 ### Greenspan2016 Deep Learning in Medical Imaging
 
 Filename: `greenspan2016 Deep Learning in Medical Imaging.pdf`
@@ -94,9 +94,8 @@ In particular, convolutional neural networks (CNNs) have proven to be powerful t
 
 In medical imaging, the accurate diagnosis and/or assessment of a disease depends on both image acquisition and image interpretation. Image acquisition has improved substantially over recent years, with devices acquiring data at faster rates and in- creased resolution. The image interpretation process, however, has only recently begun to benefit from computer technology. Most interpretations of medical images are performed by physicians; however, image interpretation by humans is limited due to its subjectivity, large variations across interpreters, and fatigue. Many diagnostic tasks require an initial search process to detect abnormalities, and to quantify measurements and changes over time. Computerized tools, specifically image analysis and machine learning, are the key enablers to improve diagnosis, by facilitating identification of the findings that require treatment and to support the expert’s workflow. Among these tools, deep learning is rapidly proving to be the state-of-the-art foundation, leading to improved accuracy. It has also opened up new frontiers in data analysis with rates of progress not before experienced.
 
-
-
 ----
+
 
 ### Imhof2003 Seismic Determination of reservoir Heterogeneity-- Characterization of Heavey Oil Reservoirs
 
@@ -138,6 +137,7 @@ The efficiency of machine learning techniques in increasing the prediction accur
 
 -----
 
+
 ### Milletari2016 Fully Convolutional Neural Networks for  Volumetric Medical Image Segmentation
 
 Filename: `Milletari2016 Fully Convolutional Neural Networks for  Volumetric Medical Image Segmentation 1606.04797.pdf`
@@ -155,6 +155,7 @@ Segmentation is a highly relevant task in medical image analysis. Automatic deli
 ![image-20191221232629146](README.tex.assets/image-20191221232629146.png)
 
 -----
+
 
 ### Mohebian2017 A Comparative Study of the Neural Network, Fuzzy Logic, and Neuro-fuzzy Systems in Seismic Reservoir Characterization
 
@@ -179,6 +180,7 @@ The principal objectives of the current research are as follows:
 
 -----
 
+
 ### Naeini2018 Seismic - learning from machines
 
 Filename: `naeini2018 Seismic - learning from machines.pdf`
@@ -192,6 +194,7 @@ Machine learning has been around for decades or, depending on your view, centuri
 ![image-20191221213651114](README.tex.assets/image-20191221213651114.png)
 
 -----
+
 
 ### Picetti2019 Seismic image processing through the generative adversarial network
 
@@ -213,6 +216,7 @@ As a matter of fact, CNNs greatly impacted the whole signal and image processing
 
 ----
 
+
 ### Segy-change— The swiss army knife for the SEG-Y files
 
 Filename: `Segy-change— The swiss army knife for the SEG-Y files.pdf`
@@ -224,6 +228,7 @@ Filename: `Segy-change— The swiss army knife for the SEG-Y files.pdf`
 Data collected during active and passive seismic surveys can be stored in many different, more or less standard, formats. One of the most popular is the SEG-Y format, developed since 1975 to store single- line seismic digital data on tapes, and now evolved to store them into hard-disk and other media as well. Unfortunately, sometimes, files that are claimed to be recorded in the SEG-Y format cannot be processed using available free or industrial packages. Aiming to solve this impasse we present segy-change, a pre-processing software program to view, analyze, change and fix errors present in SEG-Y data files. It is written in C language and it can be used also as a software library and is compatible with most operating systems. Segy-change allows the user to display and optionally change the values inside all parts of a SEG-Y file: the file header, the trace headers and the data blocks. In addition, it allows to do a quality check on the data by plotting the traces. We provide instructions and examples on how to use the software.
 
 -----
+
 
 ### SLC Paris 2014_Seismic Standards in the SLC_SEG.pdf
 
@@ -243,6 +248,7 @@ Filename: `SLC Paris 2014_Seismic Standards in the SLC_SEG.pdf`
 - 1975 Publication of the Technical Standards Book for SEGA, SEGB, SEGC and SEGD
 
 -----
+
 
 ### Tingdahl2005 Semi-automatic detection of faults in 3D seismic data
 
@@ -265,6 +271,7 @@ The semi-automatic approach to seismic object detection, developed by Meldahl et
 
 ----
 
+
 ### Wu2018Cnnf Convolutional neural networks for fault interpretation in seismic images.pdf
 
 Filename: `wu2018Cnnf Convolutional neural networks for fault interpretation in seismic images.pdf`
@@ -280,6 +287,7 @@ In this paper, we consider fault orientation estimation as an image classificati
 ![image-20191221213233423](README.tex.assets/image-20191221213233423.png)
 
 -----
+
 
 ### Wu2019 FaultNet3D: Predicting Fault Probabilities, Strikes, and Dips With a Single Convolutional Neural Network
 
@@ -300,6 +308,7 @@ Interpreting faults from seismic reflection images is a key step for building st
 ![image-20191221213115479](README.tex.assets/image-20191221213115479.png)
 
 -----
+
 
 ### Xiong2018 Seismic fault detection with convolutional neural networks.pdf
 
@@ -322,6 +331,7 @@ In this paper, we introduce the CNN for detecting geologic faults from 3D seismi
 
 
 ![image-20191221212957568](README.tex.assets/image-20191221212957568.png)
+
 
 ## Researchers
 
