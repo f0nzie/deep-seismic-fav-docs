@@ -187,6 +187,8 @@ Filename: `naeini2018 Seismic - learning from machines.pdf`
 
 Machine learning has been around for decades or, depending on your view, centuries. To consider the tools and underpinnings of machine learning, one would need to go back to the work of Bayes and Laplace, the derivation of least squares, and Markov chains, all of which form the basis and the probability construct used pervasively in machine learning. There has been a flood of progress between 1950 (with Alan Turing’s proposal of a learning machine) and early 2000 (with practical applications of deep learning in place and more recent advances such as AlexNet in 2012). Deep learning has demonstrated tremendous success in a variety of application domains in the past few years, and with some new modalities of applications, it continues to open new opportunities. The recent popularity and emergence of machine learning in the oil and gas industry is likely due to the abundance of unused or overlooked data and the economic need to extract additional information from the data currently used. Additionally, there is an unprecedented availability of computing power, easy- to-use coding libraries, and application programming interfaces, as well as recent and significant advances in various flavors of neural networks. In this paper, we will attempt to show how machine learning can assist geoscientists in performing routine tasks in a much shorter time frame. We assert that there is a great opportunity for geoscientists to learn from machines, use these techniques to quality check their work, and gain nuanced insights from their data. Another advantage is that these approaches lead to the optimization of machine learning workflows by providing more accurate training data sets thus driving continuous learning and enhancement of the model.
 
+![image-20191221213651114](README.tex.assets/image-20191221213651114.png)
+
 -----
 
 ### Picetti2019 Seismic image processing through the generative adversarial network
@@ -204,6 +206,8 @@ State-of-the-art seismic imaging algorithms (e.g., full- waveform inversion and 
 ... the recent amazing development of machine learning, and in particular of deep learning and convolutional neural networks (CNNs), suggests new thinking and a huge potential for imaging-related fields (Lucas et al., 2018). 
 
 As a matter of fact, CNNs greatly impacted the whole signal and image processing community, and most image processing problems are, de facto, inverse problems (e.g., inpainting and deblurring). In particular, among the different architectures, generative adversarial networks (GANs) emerged as a promising approach to impose some form of regularization that is not easy to express through simple modeling (Goodfellow et al., 2014). 
+
+![image-20191221213535081](README.tex.assets/image-20191221213535081.png)
 
 ----
 
@@ -255,6 +259,8 @@ Most attributes are non-unique; one attribute can respond to other objects as we
 
 The semi-automatic approach to seismic object detection, developed by Meldahl et al. (1999), uses directive attributes (i.e. attributes that are extracted in user- or data-steered di- rections) and neural networks to highlight objects of interest. The method was initially applied to highlight seismic chim- neys for the interpretation of hydrocarbon migration paths (Heggland et al. 1999; Tingdahl, Bril and de Groot 2001). The same methodology can be used to detect other seismic objects, such as faults, reflectors and bright spots. This paper focuses on adapting the methodology to detect faults in 3D seismic data.
 
+![image-20191221213413899](README.tex.assets/image-20191221213413899.png)
+
 ----
 
 ### Wu2018Cnnf Convolutional neural networks for fault interpretation in seismic images.pdf
@@ -269,6 +275,8 @@ We propose an automatic fault interpretation method by using convolutional neura
 
 In this paper, we consider fault orientation estimation as an image classification problem by assuming a local fault within a small seismic image is a line (2D) or plane (3D) that is uniquely defined by a single fault orientation. Inspired by the success of CNN in variant classification tasks, we propose to use CNN to classify fault orientations within the small seis- mic images. We construct a CNN model with 6 convolutional layers followed by a fully connected layers and a final out- put vector of a fault orientation prediction. We train the CNN model by using 200,000 synthetic seismic image patches that are automatically computed as illustrated in Figure 2. We fur- ther apply the trained CNN model to classify the orientations of the faults in small seismic patches that are extracted from an input full seismic image. With the estimated fault orienta- tions, we compute fault probability patches with fault-oriented linear features. All the fault probability patches have the same size of the extracted seismic patches and are further stacked to compute a full fault probability image as shown in Figure 1d.
 
+![image-20191221213233423](README.tex.assets/image-20191221213233423.png)
+
 -----
 
 ### Wu2019 FaultNet3D: Predicting Fault Probabilities, Strikes, and Dips With a Single Convolutional Neural Network
@@ -282,6 +290,12 @@ Filename: `wu2019 FaultNet3D— Predicting Fault Probabilities, Strikes, and Dip
 We simultaneously estimate fault probabilities, strikes, and dips directly from a seismic image by using a single convolutional neural network (CNN). In this method, we assume a local 3-D fault is a plane defined by a single combination of strike and dip angles. We assume the fault strikes and dips, respectively, are in the ranges of [0◦,360◦] and [64◦,85◦], which are divided into 577 classes corresponding to the situation of no fault and 576 different combinations of strikes and dips. We construct a 7-layer CNN to classify the fault strike and dip in a local seismic cube and obtain the classification probability at the same time. With the fault probability, strike and dip estimated at some seismic pixel, we further compute a fault cube (centered at the pixel) with fault features elongated along the fault plane. By sliding the classification window within a full seismic image, we are able to obtain a lot of overlapping fault cubes which are stacked to compute three full images of enhanced and continuous fault probabilities, strikes, and dips. To train the CNN model, we propose an effective and efficient workflow to automatically create 900000 synthetic seismic cubes and the corresponding fault class labels. Although trained with only synthetic data sets, our CNN model can be applied to accurately estimate fault probabilities, strikes, and dips within field seismic images that are acquired at totally different surveys. With the estimated three fault images, we further construct fault cells that are represented as small 3-D squares, each square is colored by fault probability and oriented by fault strike and dip. We recursively link the fault cells by following the fault strikes and dips to finally construct fault skins, which are simple linked data structures to represent fault surfaces.
 
 Interpreting faults from seismic reflection images is a key step for building structural models [1], [2] and reservoir characterization [3], [4]. In a seismic image, the most dominant features are reflection events corresponding to geologic horizons [5]–[7] while faults are often recognized as reflection discontinuities. Therefore, fault interpretation typically requires first computing a fault probability image from the seismic image so that the faults are highlighted while the reflections are removed. Such a fault probability image can be estimated from numerous types of seismic attributes that measure reflection discontinuity or continuity. Such attributes include semblance [8], [9], coherency [10]–[14], variance [15], [16], and gradient magnitude [17]. A fault prob- ability image based on discontinuity measurement, however, often highlights other discontinuous seismic features including stratigraphic features (e.g., channels and unconformities) and noise as shown in Fig. 1(a)–(e). To further enhance fault features while suppressing the features unrelated to faults, several researchers [18]–[22] propose to apply fault-oriented averaging or smoothing in computing a fault probability image like the fault likelihood image [20], [21] shown in Fig. 1(f). Other researchers propose to directly enhance the fault features in a fault probability image by using ant tracking [23] or optimal surface voting [24] as shown in Fig. 1(g).
+
+![image-20191221213048934](README.tex.assets/image-20191221213048934.png)
+
+
+
+![image-20191221213115479](README.tex.assets/image-20191221213115479.png)
 
 -----
 
@@ -301,7 +315,11 @@ Machine learning (especially deep learning) technologies are powerful for mining
 
 In this paper, we introduce the CNN for detecting geologic faults from 3D seismic images for practical applications. A CNN model is trained to detect faults from raw seismic images sampled on 3D grids or voxels in a supervised learning approach. Real data from 7 annotated seismic cubes are used to generate the training dataset with one seismic cube used for validation. We first demonstrate the capabiility of the trained model for fault detection by applying it to a synthetic seismic image cube with artificial faults. For real data tests, the trained network is then applied to a different seismic cube that the network has never seen in the training process. The fault probabiliittyy derived from the CNN shows similar but better highlighting of seismic discontinuities than seismic coherence.
 
+![image-20191221212902880](README.tex.assets/image-20191221212902880.png)
 
+
+
+![image-20191221212957568](README.tex.assets/image-20191221212957568.png)
 
 ## Researchers
 
